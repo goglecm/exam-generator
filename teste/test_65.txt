@@ -1,0 +1,212 @@
+1
+21
+Un parametru formal transmis prin referinta nu este precedat de cuvantul cheie var.
+0
+O procedura se apeleaza prin intermediul unei instructiuni procedurale de forma pnume(lista_parametri_formali);
+1
+Comentariile sunt constructii de tip text incadrate intre acolade sau intre /*si */.
+0
+Procedure exista(b:char);
+1
+Sectiunea de declaratii cuprinde si definitii de subprograme particulare.
+1
+Cuvantul program este un cuvant cheie al limbajului Pascal.
+1
+Datele de tip caracter pot fi comparate , rezultatul fiind de natura logica.
+0
+Pentru a returna valori blocului apelant se folosesc parametri transmisi prin valoare.
+0
+Constantele char se scriu intre ghilimele sau #cod.
+0
+Function verif:boolean;
+1
+Function min(a,b:integer):integer;
+1
+Procedurile standard pentru citirea datelor in Pascal sunt: read si readln.
+1
+Numarul +3759.107 se va scrie in limbajul Pascal: +3759e-7.
+0
+Orice identificator trebuie declarat inainte de a fi folosit.
+1
+Function f(b:real):real;
+1
+Function media(nota:1..10; var med:real);
+0
+Procedure suma(n, k:integer; var m:integer);
+1
+Procedure p(a:integer):integer;
+0
+Cand un subprogram este apelat, parametrii efectivi si cei formali nu trebuie obligatoriu sa coincida in numar, tip si pozitie.
+0
+Alfabetul limbajului Pascal contine doar literele  mari si mici ale alfabetului englez si cifrele sistemului de numeratie in baza 10.
+0
+Function acincea(a,b:char);
+0
+1
+4
+Var a,b,c:real; k,m,n:integer; Procedure P(x:integer; var y:integer; z:real);
+3
+a)P(k,m,a);
+1
+b)P(3.0,m,b);	
+0
+c)P(2,3,a);
+0
+Constructia unui identificator cuprinde:
+4
+litere si cifre    
+0
+litere,cifre si caracterul underline
+1
+cifre si semnul de subliniere    
+0
+caraterele @,#,$,%si cifrele romane.
+0
+Care dintre urmatoarele instructiuni reprezinta declararea unei variabile de tip logic:
+5
+a:TRUE; 
+0
+a:FALSE; 
+0
+a:boolean;
+1
+a:=boolean;   
+0
+a=boolean;
+0
+Daca i, j, k sunt variabile intregi, iar a, b, c, sunt variabile reale, identificati instructiunile de atribuire corecte:
+5
+i=i+1  
+0
+a*j:=c; 
+0
+sqr(i)+j;
+0
+b:=i+j+k*a;   
+1
+k:=sqrt(c);
+0
+1
+5
+Instructiunea write(c:0:5) pentru c=4, real va afisa = 
+4.00000
+(23-(3+7)/2)/3*(15-11) = 
+1.5
+48.0-(32/(2/2)+1 = 
+15
+2+17 mod 3 = 
+4
+Abs(-34) = 
+34
+1
+4
+varinteger integer 
+integer integer 
+typeinteger integer 
+realinteger integer 
+variabilainteger 
+intregulinteger integer 
+tipulinteger 
+numar realinteger integer 
+4
+1
+3
+2
+1
+3
+Exemplu de inceput Exemplu de inceput Exemplu de inceput 
+3
+incepe
+begin
+start
+Exemplu de sfarsit Exemplu de inceput Exemplu de inceput 
+3
+end
+sfarsit
+stop
+Exemplu de mijlocExemplu de inceput Exemplu de inceput 
+3
+mijloc
+begin
+middle
+1
+3
+4
+program p1; {antet antet antet }
+var a:integer;
+begin
+end.{sfarsit sfarsit sfarsit }
+program p1; {antet antet antet }
+var a:integer;
+begin
+end.{sfarsit sfarsit sfarsit }
+10
+Program a1;
+var a,b:integer;
+c:caracter;
+z,b:real; 
+begin   
+read(a,b);
+c:='s';   
+z:=a/b;    
+write('z=',z:5); 
+end.
+Program a1;
+var a,b:integer;
+c:char;
+z,b:real; 
+begin   
+read(a,b);
+c:='s';   
+z:=a/b;    
+write('z=',z:5); 
+end.
+4
+program p1; {antet antet antet }
+var a:integer;
+begin
+end.{sfarsit sfarsit sfarsit }
+program p1; {antet antet antet }
+var a:integer;
+begin
+end.{sfarsit sfarsit sfarsit }
+1
+3
+4
+program p1; {antet antet antet }
+var a:integer;
+begin
+end.{sfarsit sfarsit sfarsit }
+4
+program p1; {antet antet antet }
+var a:integer;
+begin
+end.{sfarsit sfarsit sfarsit }
+4
+program p1; {antet antet antet }
+var a:integer;
+begin
+end.{sfarsit sfarsit sfarsit }
+4
+program p1; {antet antet antet }
+var a:integer;
+begin
+end.{sfarsit sfarsit sfarsit }
+15
+Program P1;
+var a, b:integer;
+procedure P(c:integer; var d:integer);
+begin
+c:=sqr(c);
+d:=d*c;
+end;
+begin
+a:=2;
+b:=2;
+P(a,b);
+write(a,b);
+P(a,b);
+write(a,b);
+end.
+1
+28232
